@@ -9,21 +9,28 @@ This folder covers the basic control flow concepts in JavaScript.
 - `else if` Statement
 - Nested `if`
 - `switch` Statement
-- Practical Control Flow
+- Control Flow Practice
 
 ## Files
 
-Files will be added as each topic is completed.
+| File | Topic |
+| --- | --- |
+| `01-IfStatement.js` | Basic condition checking |
+| `02-IfElseStatement.js` | Handling two possible conditions |
+| `03-ElseIfStatement.js` | Handling multiple conditions |
+| `04-NestedIfStatement.js` | Using an `if` statement inside another `if` |
+| `05-SwitchStatement.js` | Handling multiple fixed choices |
+| `06-ControlFlowPractice.js` | Practical control flow example |
 
 ## Learning Outcome
 
-After completing this folder, I will be able to:
+After completing this folder, I can:
 
-- Make decisions using `if` statements.
-- Handle alternative conditions using `if...else`.
-- Check multiple conditions using `else if`.
+- Use `if` statements to make simple decisions.
+- Use `if...else` for two possible outcomes.
+- Use `else if` for multiple conditions.
 - Understand basic nested conditions.
-- Use `switch` for multiple fixed choices.
+- Use `switch` for fixed choices.
 - Apply control flow concepts to simple real-world problems.
 
 ## Interview Concepts
@@ -33,6 +40,8 @@ After completing this folder, I will be able to:
 - `else if`
 - Nested `if`
 - `switch`
+- `break`
+- `default`
 - Difference between `if...else` and `switch`
 
 ## Technologies Used
