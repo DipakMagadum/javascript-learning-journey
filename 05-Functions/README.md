@@ -17,7 +17,15 @@ This folder covers the fundamentals of functions in JavaScript.
 
 ## Files
 
-Files will be added as each topic is completed.
+| File | Description |
+|------|-------------|
+| 01-FunctionDeclaration.js | Basic function declaration and function calls |
+| 02-ParametersArguments.js | Working with parameters and arguments |
+| 03-ReturnStatement.js | Returning values from functions |
+| 04-FunctionExpression.js | Creating function expressions |
+| 05-ArrowFunctions.js | Basic arrow function syntax |
+| 06-DefaultParameters.js | Using default parameter values |
+| 07-FunctionPractice.js | Practical function exercises |
 
 ## Learning Outcome
 
@@ -25,11 +33,12 @@ After completing this folder, I will be able to:
 
 - Understand why functions are used in JavaScript.
 - Create and call functions.
-- Pass data to functions using parameters and arguments.
+- Pass data using parameters and arguments.
 - Return values from functions.
-- Understand different ways to create functions.
+- Create function expressions.
 - Write basic arrow functions.
-- Use functions in simple real-world problems.
+- Use default parameters.
+- Apply functions to simple real-world problems.
 
 ## Interview Concepts
 
@@ -41,6 +50,7 @@ After completing this folder, I will be able to:
 - Function expression
 - Arrow function
 - Default parameters
+- `console.log()` vs `return`
 
 ## Technologies Used
 
