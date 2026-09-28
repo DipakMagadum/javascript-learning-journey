@@ -1,6 +1,6 @@
 # 08-Strings
 
-This folder covers string manipulation and commonly used string operations in JavaScript.
+This folder covers string manipulation, searching, validation and practical string processing in JavaScript.
 
 ## Topics Covered
 
@@ -8,18 +8,30 @@ This folder covers string manipulation and commonly used string operations in Ja
 - String Indexing
 - String Length
 - Accessing Characters
-- Common String Methods
 - Searching Within Strings
-- Extracting Parts of Strings
-- Changing String Case
-- Removing Extra Spaces
-- Splitting and Joining String Data
-- Template Literals
-- Practical String Handling
+- `indexOf()`
+- `includes()`
+- `startsWith()`
+- `endsWith()`
+- `toUpperCase()`
+- `toLowerCase()`
+- `trim()`
+- `slice()`
+- `substring()`
+- `split()`
+- `join()`
+- String Immutability
+- String Validation
+- Practical String Processing
 
 ## Files
 
-Files will be added as each topic is completed.
+| File | Description |
+|------|-------------|
+| 01-StringBasics.js | String fundamentals, indexing and common operations |
+| 02-StringOperations.js | Searching, extracting and processing string data |
+| 03-StringAndArrayConversion.js | Converting between strings and arrays |
+| 04-StringValidation.js | Practical string validation and input processing |
 
 ## Learning Outcome
 
@@ -28,42 +40,44 @@ After completing this folder, I will be able to:
 - Create and work with strings in JavaScript.
 - Access characters using indexes.
 - Find the length of a string.
-- Search for text inside a string.
+- Search for specific text.
 - Extract parts of a string.
-- Convert strings between uppercase and lowercase.
+- Change string case.
 - Remove unnecessary spaces.
-- Split string data into arrays.
-- Combine string data when required.
-- Handle common string operations used in applications.
+- Split strings into arrays.
+- Convert arrays back into strings.
+- Perform basic input validation.
+- Process user input using multiple string methods.
+- Understand string immutability.
+- Apply string handling to practical application scenarios.
 
 ## Interview Concepts
 
 - What is a string?
 - String indexing
+- Zero-based indexing
 - String length
-- Strings are immutable
-- `toUpperCase()` and `toLowerCase()`
-- `includes()`
-- `indexOf()`
+- String immutability
+- `indexOf()` vs `includes()`
+- `slice()` vs `substring()`
 - `startsWith()` and `endsWith()`
-- `slice()`
-- `substring()`
 - `trim()`
-- `split()`
-- Template literals
+- `split()` and `join()`
+- Case-insensitive string searching
 
 ## Practical Use Cases
 
 The concepts in this folder can be used for:
 
-- User input handling
+- User input processing
 - Form validation
+- Username and email handling
+- Password validation
 - Search functionality
-- Username and email processing
-- Product search
-- Display formatting
+- Product searching
+- File extension checking
+- Text formatting
 - API data processing
-- Text filtering
 
 ## Technologies Used
 
