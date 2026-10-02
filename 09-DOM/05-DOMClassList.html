@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Class List</title>
+
+    <style>
+        .product-card {
+            width: 300px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .available {
+            color: green;
+        }
+
+        .out-of-stock {
+            color: red;
+        }
+
+        .highlighted {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Product Details</h1>
+
+    <div id="productCard" class="product-card">
+        <h2 id="productName">Laptop</h2>
+        <p id="productStatus">Available</p>
+    </div>
+
+    <button id="highlightButton">Highlight Product</button>
+    <button id="statusButton">Change Status</button>
+
+    <script src="05-DOMClassList.js"></script>
+</body>
+</html>
