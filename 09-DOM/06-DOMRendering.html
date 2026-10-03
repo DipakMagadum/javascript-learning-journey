@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Rendering</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        #productList {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .product-card {
+            width: 220px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .product-card h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Product List</h1>
+
+    <div id="productList"></div>
+
+    <script src="06-DOMRendering.js"></script>
+</body>
+</html>
