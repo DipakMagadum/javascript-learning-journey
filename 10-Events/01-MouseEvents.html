@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .product-card {
+            width: 280px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .product-card.active {
+            border: 2px solid black;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 8px 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Product</h1>
+
+    <div id="productCard" class="product-card">
+        <h2 id="productName">Wireless Headphones</h2>
+        <p id="productPrice">Price: ₹2500</p>
+
+        <button id="buyButton">Buy Now</button>
+    </div>
+
+    <p id="message">Click the button to buy the product.</p>
+
+    <script src="01-MouseEvents.js"></script>
+</body>
+</html>
