@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 30px auto;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Create Account</h1>
+
+    <form id="registrationForm">
+        <label for="userName">Username</label>
+        <input type="text" id="userName" placeholder="Enter username">
+
+        <p id="nameMessage" class="error"></p>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter email">
+
+        <p id="emailMessage" class="error"></p>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="08-FormValidation.js"></script>
+</body>
+</html>
