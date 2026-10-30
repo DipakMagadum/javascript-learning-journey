@@ -1,71 +1,116 @@
-# 12-Asynchronous-JavaScript
+# 12. Asynchronous JavaScript
 
-This folder covers asynchronous JavaScript and how to handle operations that complete over time.
+This module focuses on understanding how JavaScript handles asynchronous operations and works with data from external sources.
+
+The examples cover callbacks, Promises, async/await, error handling, and API communication through practical scenarios.
 
 ## Topics Covered
 
-- Synchronous JavaScript
-- Asynchronous JavaScript
-- Call Stack Basics
-- Callback Functions
-- Callback-Based Operations
-- Callback Hell
-- Promises
-- Promise States
-- Promise Chaining
-- Error Handling with Promises
-- `async` and `await`
-- `try...catch`
-- Fetch API
-- Handling API Responses
-- Practical Asynchronous JavaScript
+* Synchronous JavaScript
+* Asynchronous JavaScript
+* Call Stack Basics
+* Callback Functions
+* Asynchronous Callbacks
+* Callback Hell
+* Promises
+* Promise Chaining
+* Promise Rejection and Error Handling
+* Async and Await
+* Try...Catch with Async/Await
+* Fetch API
+* Handling API Responses
+* Practical Asynchronous JavaScript
 
-## Files
+## Folder Structure
 
-Files will be added as each topic is completed.
+```text
+12-Asynchronous-JavaScript/
+│
+├── README.md
+│
+└── src/
+    ├── 01-SynchronousJavaScript.js
+    ├── 02-AsynchronousJavaScript.js
+    ├── 03-Callbacks.js
+    ├── 04-AsynchronousCallback.js
+    ├── 05-CallbackHell.js
+    ├── 06-Promises.js
+    ├── 07-PromiseChaining.js
+    ├── 08-PromiseErrorHandling.js
+    ├── 09-AsyncAwait.js
+    ├── 10-AsyncAwaitErrorHandling.js
+    ├── 11-FetchAPI.js
+    ├── 12-HandlingAPIResponses.js
+    └── 13-ProductInventory.js
+```
 
 ## Learning Outcome
 
-After completing this folder, I will be able to:
+After completing this module, I can:
 
-- Understand the difference between synchronous and asynchronous code.
-- Explain why asynchronous operations are useful.
-- Work with callback functions.
-- Understand and create Promises.
-- Handle asynchronous errors.
-- Use `async` and `await`.
-- Fetch data from APIs.
-- Process API responses.
-- Apply asynchronous JavaScript to practical application scenarios.
-
-## Interview Concepts
-
-- Synchronous vs asynchronous JavaScript
-- What is a callback function?
-- What is callback hell?
-- What is a Promise?
-- Promise states
-- Promise chaining
-- `then()`, `catch()` and `finally()`
-- `async` and `await`
-- `try...catch`
-- Fetch API
-- Handling failed API requests
+* Understand the difference between synchronous and asynchronous execution.
+* Work with callback functions and asynchronous callbacks.
+* Understand callback hell and why Promises are useful.
+* Create and handle Promises using resolve and reject.
+* Chain multiple asynchronous operations.
+* Write asynchronous functions using async and await.
+* Handle errors using try...catch and finally.
+* Fetch data from external APIs using the Fetch API.
+* Parse JSON responses and process API data.
+* Filter and display data received from APIs.
 
 ## Practical Use Cases
 
-- Fetching products from an API
-- Loading user profiles
-- Submitting forms to a backend
-- Handling login requests
-- Loading dashboard data
-- Processing server responses
-- Handling network errors
+The examples in this module are based on practical application scenarios:
+
+* Processing customer orders.
+* Handling online payment operations.
+* Sending order confirmations.
+* Retrieving data from external APIs.
+* Filtering product information.
+* Checking product inventory.
+* Handling failed requests and unexpected responses.
+
+## Interview Concepts
+
+Important concepts covered in this module:
+
+* Synchronous vs Asynchronous JavaScript
+* Callbacks and Callback Hell
+* Promise states
+* resolve() and reject()
+* Promise chaining
+* then() and catch()
+* async and await
+* try...catch and finally
+* Fetch API
+* HTTP response validation
+* JSON parsing
+* Asynchronous error handling
 
 ## Technologies Used
 
-- JavaScript
-- Node.js
-- Visual Studio Code
-- Git
-- GitHub
+* JavaScript (ES6+)
+* Node.js
+* Fetch API
+* JSON
+* Promises
+* Async/Await
+
+## How to Run
+
+Make sure Node.js is installed on your system.
+
+Navigate to the repository root directory and run any example:
+
+```bash
+node 12-Asynchronous-JavaScript/src/01-SynchronousJavaScript.js
+```
+
+For API examples, an active internet connection is required.
+
+## Learning Approach
+
+Each example focuses on a specific concept and uses practical scenarios to understand how asynchronous JavaScript works in real applications.
+
+The goal is to build a strong foundation for working with APIs, frontend applications, and backend development.
