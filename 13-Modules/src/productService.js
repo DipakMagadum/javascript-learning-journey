@@ -30,3 +30,6 @@ export function findProductById(productId) {
 export function getAvailableProducts() {
     return products.filter((product) => product.stock > 0);
 }
+export {
+    getAvailableProducts as getInStockProducts
+};
