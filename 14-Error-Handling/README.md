@@ -1,65 +1,88 @@
-# 14. Error Handling in JavaScript
+# 14 - Error Handling
 
-## Overview
-
-Error Handling is an important part of JavaScript development. It helps developers identify, manage, and handle unexpected situations without interrupting the normal execution of an application.
-
-This module covers JavaScript error handling techniques through practical examples.
+This module covers JavaScript error handling concepts, from understanding common errors to building practical applications with custom errors and asynchronous operations.
 
 ## Topics Covered
 
-- Introduction to Errors
-- Types of JavaScript Errors
-- try and catch
-- finally Block
-- throw Statement
-- Error Object
-- Custom Errors
-- Error Handling with Functions
-- Error Handling with Promises
-- Error Handling with Async/Await
-- Practical Error Handling Application
+1. Introduction to Errors
+2. Types of JavaScript Errors
+3. try...catch Statement
+4. finally Block
+5. throw Statement
+6. Error Object
+7. Custom Errors
+8. Error Handling with Functions
+9. Error Handling with Promises
+10. Error Handling with Async/Await
+11. Practical Error Handling Application
 
-## Learning Objectives
+## Project Structure
 
-After completing this module, I will be able to:
+```text
+14-Error-Handling/
+├── README.md
+└── src/
+    ├── 01-IntroductionToErrors.js
+    ├── 02-TypesOfErrors.js
+    ├── 03-TryAndCatch.js
+    ├── 04-FinallyBlock.js
+    ├── 05-ThrowStatement.js
+    ├── 06-ErrorObject.js
+    ├── 07-CustomErrors.js
+    ├── 08-FunctionErrorHandling.js
+    ├── 09-PromiseErrorHandling.js
+    ├── 10-AsyncAwaitErrorHandling.js
+    └── 11-PracticalErrorHandling.js
+```
 
-- Understand different types of JavaScript errors.
-- Handle runtime errors using try and catch.
-- Use finally for cleanup operations.
-- Generate errors using throw.
-- Understand and work with the Error object.
-- Create custom error messages.
-- Handle errors in asynchronous JavaScript code.
-- Build applications with reliable error handling.
+## Learning Outcomes
 
-## Practical Use Cases
+After completing this module, I can:
 
-Error handling is commonly used in:
-
-- Form validation
-- User authentication
-- API requests
-- Database operations
-- File processing
-- Payment systems
-- Backend applications
+- Understand why errors occur in JavaScript applications.
+- Identify common JavaScript error types.
+- Handle runtime errors using try...catch.
+- Execute cleanup code using finally.
+- Generate errors using the throw statement.
+- Access error information through the Error object.
+- Create and use custom error classes.
+- Handle errors inside functions.
+- Handle rejected Promises using catch().
+- Manage asynchronous errors with async/await.
+- Apply error handling techniques in practical applications.
 
 ## Interview Concepts
 
-- What is Error Handling in JavaScript?
-- What is the difference between SyntaxError and ReferenceError?
-- How do try and catch work?
-- What is the purpose of finally?
-- What is the throw statement?
-- What is a Custom Error?
-- How do we handle errors in Async/Await?
+- What is error handling in JavaScript?
+- What are the different types of JavaScript errors?
+- What is the purpose of try...catch?
+- Why do we use the finally block?
+- What is the difference between throw and reject?
+- What is a custom error?
+- What are error.name, error.message, and error.stack?
+- How do we handle errors in Promises?
+- How does try...catch work with async/await?
+
+## Practical Use Cases
+
+- Handling invalid user input in forms.
+- Displaying meaningful error messages.
+- Handling failed API requests.
+- Managing authentication and authorization errors.
+- Validating product and order information.
+- Handling database and server-side errors.
+- Preventing unexpected application failures.
 
 ## Technologies Used
 
 - JavaScript (ES6+)
 - Node.js
+- Promises
+- Async/Await
+- Error Handling
 
-## Learning Approach
+---
 
-Each concept is practiced through individual JavaScript programs, followed by practical examples based on real-world application scenarios.
+**Module Status:** Completed
+
+**Learning Journey:** JavaScript Learning Journey
